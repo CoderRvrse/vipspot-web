@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.700e4668.js",
-    "index.html": "/index.html",
-    "main.700e4668.js.map": "/static/js/main.700e4668.js.map"
+    "main.js": "/vipspot-web/static/js/main.700e4668.js",
+    "index.html": "/vipspot-web/index.html",
+    "main.700e4668.js.map": "/vipspot-web/static/js/main.700e4668.js.map"
   },
   "entrypoints": [
     "static/js/main.700e4668.js"
