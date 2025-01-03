@@ -22,7 +22,7 @@ function App() {
     <>
       {/* 2) Use Helmet to set title/meta tags */}
       <Helmet>
-        <title>VIPSPOT Frontend</title>
+        <title>VIPSPOT</title>
         <meta
           name="description"
           content="Welcome to VIPSPOT, the best spot on the web!"
