@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+// 1) Import Helmet
+import { Helmet } from 'react-helmet';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -17,11 +19,22 @@ function App() {
   }, []);
 
   return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>🎉 Welcome to VIPSPOT Frontend!</h1>
-      <h2>Backend Says:</h2>
-      <p>{message || 'Loading...'}</p>
-    </div>
+    <>
+      {/* 2) Use Helmet to set title/meta tags */}
+      <Helmet>
+        <title>VIPSPOT Frontend</title>
+        <meta
+          name="description"
+          content="Welcome to VIPSPOT, the best spot on the web!"
+        />
+      </Helmet>
+
+      <div style={{ textAlign: 'center', marginTop: '50px' }}>
+        <h1>🎉 Welcome to VIPSPOT Frontend!</h1>
+        <h2>Backend Says:</h2>
+        <p>{message || 'Loading...'}</p>
+      </div>
+    </>
   );
 }
 

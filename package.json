@@ -6,6 +6,7 @@
     "axios": "^1.7.9",
     "react": "^18.x.x",
     "react-dom": "^18.x.x",
+    "react-helmet": "^6.1.0",
     "react-scripts": "^5.0.1",
     "request": "^2.88.2",
     "semver": "^7.6.3",
@@ -34,7 +35,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://CoderRvrse.github.io/vipspot-web",
+  "homepage": "https://vipspot.net",
   "browserslist": {
     "production": [
       ">0.2%",
